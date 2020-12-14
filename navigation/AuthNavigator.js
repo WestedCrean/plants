@@ -10,14 +10,14 @@ import {
 const Stack = createStackNavigator();
 
 
-const AuthNavigator = () => {
+export default function AuthNavigator() {
     return (
         <Stack.Navigator>
             <Stack.Screen name="Login" component={LoginActivity} />
             <Stack.Screen name="Register" component={RegisterActivity} />
         </Stack.Navigator>
     );
-  }
+}
 
 export { AuthNavigator }
 

@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios');
 
 const API_BASE_URL = "https://trefle.io/api/v1/plants"
 const TOKEN = "aVZOYmhDUVVNSWhkVVE5c0QwZ01sQT09"
@@ -10,23 +10,25 @@ async function BuildSearchQuery(plantName, filter_type="common_name") {
 }
 
 async function ParseSearchResults(res) {
-    return res.data.map((plant) => (
-        { 
-            "name": plant.common_name ? `${plant.common_name} (${plant.scientific_name})` : plant.scientific_name,
-            "desc": plant.family_common_name,
-            "id": plant.id.toString()
-        }
-    ))
+    if(res.data.data) {
+        return res.data.data.map((plant) => ({"name": plant.common_name || plant.scientific_name, "desc": plant.observations || plant.family_common_name, "id": plant.id}))
+    }
+    return []
 }
 
 async function GetPlants(query) {
     const queryURL = await BuildSearchQuery(query)
-    return fetch(queryURL, { timeout: 1000, mode: 'cors'}).then(res => res.json()).then(
-        data => ParseSearchResults(data)
-    ).
-    then(results => { return results })
-    .catch(error => console.error(error))
+    try {
+        const res = await axios.get(queryURL, { timeout: 1000 })
+        return await ParseSearchResults(res) 
+    } catch(e) {
+        console.log({e1: e})
+    }
 }
 
+async function main() {
+    const plants = await GetPlants("parsley");
+    console.log({ plants })
+}
 
-export { GetPlants }
+main()

@@ -1,17 +1,18 @@
 import React from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View, TouchableOpacity, ToastAndroid, Dimensions } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import Map from '../components/Map';
 
-export default function MainActivity() {
+export default function MainActivity({ navigation }) {
   return (
     <View style={styles.viewContainer}>
       <View style={styles.mapContainer}>
-        <Text>This is Main Activity</Text>
+        <Map />
       </View>
-      <View style={styles.contextbutton}>
-        <Button title="Wyszukaj" style={styles.button}/>
-      </View>
+      <TouchableOpacity style={styles.button}>
+         <Ionicons name={"camera-outline"} size={30} color="#000000" onPress={() => navigation.navigate("Camera")}/>
+       </TouchableOpacity>
       <StatusBar style="auto" />
     </View>
     
@@ -29,13 +30,20 @@ const styles = StyleSheet.create({
     backgroundColor: '#80e27e',
     alignContent: 'center',
     justifyContent: 'center',
-  },
-  contextbutton: {
-    flex: 1,
-    alignContent: 'center',
-    justifyContent: 'center',
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
   },
   button: {
-    width: 20
-  }
+    borderWidth: 1,
+    borderColor:'rgba(0,0,0,0.4)',
+    backgroundColor: "#c8e6c9",
+    alignItems:'center',
+    justifyContent:'center',
+    width:70,
+    position: 'absolute',                                          
+    bottom: 20,                                                    
+    right: 20,
+    height:70,
+    borderRadius:100,
+  },
 });
