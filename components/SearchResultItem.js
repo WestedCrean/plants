@@ -1,11 +1,8 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 
-const onPress = () => {
-  console.log("press")
-}
-const SearchResultItem = ({name, desc}) => (
-  <TouchableOpacity style={styles.item} onPress={onPress}>
+const SearchResultItem = ({name, desc, handlePress}) => (
+  <TouchableOpacity style={styles.item} onPress={handlePress}>
     <Text style={styles.title}>{name}</Text>
     <Text style={styles.desc}>{desc}</Text>
   </TouchableOpacity>
