@@ -10,8 +10,15 @@ export default function MainActivity({ navigation }) {
       <View style={styles.mapContainer}>
         <Map />
       </View>
-      <TouchableOpacity style={styles.button}>
-         <Ionicons name={"camera-outline"} size={30} color="#000000" onPress={() => navigation.navigate("Camera")}/>
+      <TouchableOpacity >
+        <Button  
+          onPress={() => {}}
+          title="Wyszukaj na tym obszarze"
+          color="#841584"/>
+          <TouchableOpacity style={styles.button}>
+            <Ionicons name={"camera-outline"} size={30} color="#000000" onPress={() => navigation.navigate("Camera")}/>
+          </TouchableOpacity>
+         
        </TouchableOpacity>
       <StatusBar style="auto" />
     </View>

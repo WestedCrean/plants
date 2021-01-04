@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PlantsApp.iml" filepath="$PROJECT_DIR$/.idea/modules/PlantsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PlantsApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PlantsApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1470720162/PlantsApp.expo-application.iml" filepath="$PROJECT_DIR$/.idea/modules/-1470720162/PlantsApp.expo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1581899287/PlantsApp.expo-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1581899287/PlantsApp.expo-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/20875229/PlantsApp.expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/20875229/PlantsApp.expo-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1477247572/PlantsApp.expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/-1477247572/PlantsApp.expo-error-recovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2000665170/PlantsApp.expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/-2000665170/PlantsApp.expo-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1122195905/PlantsApp.expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/1122195905/PlantsApp.expo-font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1521158711/PlantsApp.expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/1521158711/PlantsApp.expo-image-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2001939247/PlantsApp.expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/2001939247/PlantsApp.expo-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-28137498/PlantsApp.expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-28137498/PlantsApp.expo-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1485655591/PlantsApp.expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/1485655591/PlantsApp.expo-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1026747758/PlantsApp.expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-1026747758/PlantsApp.expo-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/87773821/PlantsApp.expo-secure-store.iml" filepath="$PROJECT_DIR$/.idea/modules/87773821/PlantsApp.expo-secure-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-581270521/PlantsApp.expo-sensors.iml" filepath="$PROJECT_DIR$/.idea/modules/-581270521/PlantsApp.expo-sensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1353250016/PlantsApp.expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-1353250016/PlantsApp.expo-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-371416066/PlantsApp.expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/-371416066/PlantsApp.expo-sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-356917288/PlantsApp.expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/-356917288/PlantsApp.expo-updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2092018992/PlantsApp.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-2092018992/PlantsApp.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-612255316/PlantsApp.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/-612255316/PlantsApp.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-756155385/PlantsApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-756155385/PlantsApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-748127158/PlantsApp.react-native-mapbox-gl_maps.iml" filepath="$PROJECT_DIR$/.idea/modules/-748127158/PlantsApp.react-native-mapbox-gl_maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1737673556/PlantsApp.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/-1737673556/PlantsApp.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1246955083/PlantsApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1246955083/PlantsApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-164483408/PlantsApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-164483408/PlantsApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1525099208/PlantsApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1525099208/PlantsApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2033711323/PlantsApp.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-2033711323/PlantsApp.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-360930004/PlantsApp.unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-360930004/PlantsApp.unimodules-app-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1178924208/PlantsApp.unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1178924208/PlantsApp.unimodules-barcode-scanner-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-633662274/PlantsApp.unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-633662274/PlantsApp.unimodules-camera-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1370999214/PlantsApp.unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1370999214/PlantsApp.unimodules-constants-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1258613056/PlantsApp.unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/1258613056/PlantsApp.unimodules-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/289310805/PlantsApp.unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/289310805/PlantsApp.unimodules-face-detector-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1740321023/PlantsApp.unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1740321023/PlantsApp.unimodules-file-system-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1312082264/PlantsApp.unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1312082264/PlantsApp.unimodules-font-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1130668190/PlantsApp.unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1130668190/PlantsApp.unimodules-image-loader-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1558720739/PlantsApp.unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1558720739/PlantsApp.unimodules-permissions-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1500469944/PlantsApp.unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1500469944/PlantsApp.unimodules-react-native-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/976907928/PlantsApp.unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/976907928/PlantsApp.unimodules-sensors-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-619100354/PlantsApp.unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-619100354/PlantsApp.unimodules-task-manager-interface.iml" />
+    </modules>
+  </component>
+</project>
